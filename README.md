@@ -25,6 +25,7 @@
 * Permanent versus temporary shocks
 * Anticipated versus unanticipated shocks
 * Delayed policy reaction, type 1 and type 2 policy errors
+* Introduction to system priors
 
 
 #### Thu, Oct 11: 9am–1pm
