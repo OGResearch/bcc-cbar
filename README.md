@@ -3,14 +3,14 @@
 
 ### Week 1 Program
 
-#### Mon, Oct 11: 9am–1pm
+#### Mon, Oct 11: 9am–1pm (Baku time)
 
 * Semi-structural model building in IrisT
 * Advanced features of model source file language in IrisT
 * Key equations, near term, medium term, long term, long-term sustainability
 
 
-#### Tue, Oct 12: 1pm–5pm 
+#### Tue, Oct 12: 1pm–5pm (Baku time)
 
 * Steady-state analysis of the model
 * Real and nominal variables, monetary neutrality, inflation target
@@ -19,7 +19,7 @@
 * Intro to calibration of the steady state and the medium-term dynamics
 
 
-#### Wed, Oct 13: 1pm-5pm
+#### Wed, Oct 13: 1pm-5pm (Baku time)
 
 * Simulation experiments and monetary policy lessons as calibration tools
 * Permanent versus temporary shocks
@@ -28,7 +28,7 @@
 * Introduction to system priors
 
 
-#### Thu, Oct 11: 9am–1pm
+#### Thu, Oct 11: 9am–1pm (Baku time)
 
 * Scenario building techniques with a calibrated model
 * Hard versus soft, anticipated versus unanticipated, inversion versus conditioning
@@ -36,7 +36,7 @@
 * Interpreting model-consistent expectations, Beverdige-Nelson decomposition
 
 
-#### Fri, Oct 11: 9am–1pm
+#### Fri, Oct 11: 9am–1pm (Baku time)
 
 * Intro to building DSGE models with multiple sources of growth
 * Examination of the CBAR DSGE T-NT model
