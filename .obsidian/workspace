@@ -1,0 +1,120 @@
+{
+  "main": {
+    "id": "cc4564cc817bd055",
+    "type": "split",
+    "children": [
+      {
+        "id": "6191d921ceda8d66",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "semi/docs/glossary-variables-parameters.md",
+            "mode": "preview"
+          }
+        }
+      },
+      {
+        "id": "38d02aa0dfd34d8c",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "semi/docs/key-model-equations.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "56ae40ad6632e5a0",
+    "type": "split",
+    "children": [
+      {
+        "id": "c628e39511a3a74f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bfb05322d150fb8a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "c799e8df0c737ee4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4ec510b5bc6c0bae",
+    "type": "split",
+    "children": [
+      {
+        "id": "fa74b0f94c77646a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f249ffc3f3d5dd53",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "semi/docs/glossary-variables-parameters.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5d7f8a25c2fae83f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "semi/docs/glossary-variables-parameters.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "6191d921ceda8d66",
+  "lastOpenFiles": [
+    "semi/docs/glossary-variables-parameters.md",
+    "semi/docs/key-model-equations-description.md.md",
+    "semi/docs/key-model-equations.md",
+    "Untitled.md",
+    "semi/docs/key-model-variables.md",
+    "semi/docs/Plan.md.md",
+    "semi/docs/glossary-variables.md"
+  ]
+}
