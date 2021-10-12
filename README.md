@@ -1,5 +1,9 @@
 ## BCC Technical Assistance to the Central Bank of the Republic of Azerbaijan
 
+### Recordings of online sessions
+
+https://drive.google.com/drive/folders/1bUUaUxUsnAZFdJ0wzJXYBMocTldpcscW?usp=sharing
+
 
 ### Week 1 Program
 
