@@ -1,27 +1,5 @@
 # Key model equations
 
-## World economy module
-#### Foreign demand gap
-
-* Autoregressive process
-* Zero steady state
-
-
----
-
-#### Short-term foreign rate, FCY
-
-* Autoregressive process
-* Steady state determined by the steady state parameters for the real rate and inflation
-
----
-
-#### Foreign CPI inflation
-
-* Autoregressive process
-* Steady state parameterized
-
----
 
 ## Long-term trends module
 #### GDP trend assumptions
@@ -120,6 +98,7 @@
 
 * Foreign exchange market
 * Parity between local and foreign short rates with a premium: risk, capital controls 
+* Remember to annualize the expected depreciation (the interest rates are annualized)
 * Official interventions
 
 ---
@@ -128,5 +107,28 @@
 
 * Partly model-consistent (forward-looking)
 * Partly backward-looking extrapolative
+
+---
+
+## World economy module
+#### Foreign demand gap
+
+* Autoregressive process
+* Zero steady state
+
+
+---
+
+#### Short-term foreign rate, FCY
+
+* Autoregressive process
+* Steady state determined by the steady state parameters for the real rate and inflation
+
+---
+
+#### Foreign CPI inflation
+
+* Autoregressive process
+* Steady state parameterized
 
 ---

@@ -1,30 +1,5 @@
 # Key model equations
 
-## World economy module
-#### Foreign demand gap
-
-$$
-y^\mathrm{ww, tnd}_{t}=c_{0}\,y^\mathrm{ww, tnd}_{t-1}+\omega_t+\varepsilon_t
-$$
-
----
-
-#### Short-term foreign rate, FCY
-
-$$
-r^\mathrm{ww}_{t}=c_{0}\,r^\mathrm{ww}_{t-1}+\left(1-c_{0}\right)\,\left(rr^\mathrm{ww}_{\mathrm{ss}}+\Delta p^\mathrm{ww}_{\mathrm{ss}}\right)+\omega_t+\varepsilon_t
-$$
-
----
-
-#### Foreign CPI inflation
-
-$$
-\Delta p^\mathrm{ww}_{t}=c_{0}\,\Delta p^\mathrm{ww}_{t-1}+\left(1-c_{0}\right)\,\Delta p^\mathrm{ww}_{\mathrm{ss}}+\omega_t+\varepsilon_t
-$$
-
----
-
 ## Long-term trends module
 #### GDP trend assumptions
 
@@ -50,7 +25,7 @@ $$
 
 ---
 
-#### Interest disparity trend
+#### Real unconvered interest parity
 
 $$
 rr^\mathrm{tnd}_{t}-prem^\mathrm{tnd}_{t}=rr^\mathrm{ww,tnd}_{t}+\Delta rex^\mathrm{tnd}_{t+1}
@@ -78,7 +53,7 @@ $$
 #### Aggregate demand equation
 
 $$
-y^\mathrm{gap}_{t}=c_{0}\,y^\mathrm{gap}_{t-1}+c_{1}\,\left(y^\mathrm{fws}_{t}-y_{t}\right)-c_{2}\,rr^\mathrm{gap}_{t}-c_{3}\,rlc_{t}+c_{4}\,rex^\mathrm{gap}_{t}+c_{5}\,y^\mathrm{ww, tnd}_{t}+\varepsilon_t+\omega_t
+y^\mathrm{gap}_{t}=c_{0}\,y^\mathrm{gap}_{t-1}+c_{1}\,\left(y^\mathrm{fws}_{t}-y_{t}\right)-c_{2}\,rr^\mathrm{gap}_{t}-c_{3}\,rlc_{t}+c_{4}\,rex^\mathrm{gap}_{t}+c_{5}\,y^\mathrm{ww, gap}_{t}+\varepsilon_t+\omega_t
 $$
 
 ---
@@ -127,6 +102,31 @@ $$
 
 $$
 ex^\mathrm{ste}_{t}=c_{1}\,ex_{t+1}+\left(1-c_{1}\right)\,\left[ex_{t-1}+2\,\left(\Delta rex^\mathrm{tnd}_{t}+\Delta_4 p_{t}-\Delta_4 p^\mathrm{ww}_{t}\right)/4\right]
+$$
+
+---
+
+## World economy module
+#### Foreign demand gap
+
+$$
+y^\mathrm{ww, gap}_{t}=c_{0}\,y^\mathrm{ww, gap}_{t-1}+\omega_t+\varepsilon_t
+$$
+
+---
+
+#### Short-term foreign rate, FCY
+
+$$
+r^\mathrm{ww}_{t}=c_{0}\,r^\mathrm{ww}_{t-1}+\left(1-c_{0}\right)\,\left(rr^\mathrm{ww}_{\mathrm{ss}}+\Delta p^\mathrm{ww}_{\mathrm{ss}}\right)+\omega_t+\varepsilon_t
+$$
+
+---
+
+#### Foreign CPI inflation
+
+$$
+\Delta p^\mathrm{ww}_{t}=c_{0}\,\Delta p^\mathrm{ww}_{t-1}+\left(1-c_{0}\right)\,\Delta p^\mathrm{ww}_{\mathrm{ss}}+\omega_t+\varepsilon_t
 $$
 
 ---

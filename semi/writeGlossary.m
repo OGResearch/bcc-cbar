@@ -28,7 +28,7 @@ file = [
     ""
 ];
 
-for attribute = ["world", "trends", "local"]
+for attribute = ["trends", "local", "world"]
     file = [
         file
         ""

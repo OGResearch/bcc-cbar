@@ -28,7 +28,7 @@ file = [
 
 %% Loop over modules 
 
-for module = ["world", "trends", "local"]
+for module = ["trends", "local", "world"]
     file = [
         file
         "## " + title.(module)

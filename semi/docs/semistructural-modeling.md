@@ -1,4 +1,8 @@
-# Semistructural model for monetary policy analysis and forecasting
+# Seminar on semistructural modeling for monetary policy analysis and forecasting
+
+for Central Bank of the Republic of Azerabaijan
+
+`jaromir.benes@ogresearch.com`
 
 
 ----
@@ -46,6 +50,8 @@
 
 * Backward and forward-looking "error correction" equations
 
+* Core versus non-core dynamics
+
 ---
 
 ## Calibration
@@ -59,3 +65,4 @@
 * Never ending process
 
 * Needs to be put in the context of the entire forecasting framework/process
+

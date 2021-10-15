@@ -4,14 +4,12 @@
 
 !transition-variables(:world)
 
-    "Foreign demand !! y^\mathrm{ww}" l_gdp_ww
-    "Foreign demand trend !! y^\mathrm{ww, tnd}" l_gdp_ww_tnd
-    "Foreign demand gap !! y^\mathrm{ww, tnd}" l_gdp_ww_gap
-    "Foreign short-term rate, FCY !! r^\mathrm{ww}" r_ww
-    "Foreign real short-term rate, FCY !! rr^\mathrm{ww}" rr_ww
-    "Foreign CPI !! p^\mathrm{ww}" l_cpi_ww
-    "Foreign CPI, Q/Q PA !! \Delta p^\mathrm{ww}" dl_cpi_ww
-    "Foreign CPI, Y/Y !! \Delta_4 p^\mathrm{ww}" d4l_cpi_ww
+    "Log foreign demand gap !! y^\mathrm{ww, gap}" l_gdp_ww_gap
+    "Foreign short-term rate, FCY PA !! r^\mathrm{ww}" r_ww
+    "Foreign real short-term rate, FCY PA !! rr^\mathrm{ww}" rr_ww
+    "Log foreign CPI !! p^\mathrm{ww}" l_cpi_ww
+    "Log foreign CPI, Q/Q PA !! \Delta p^\mathrm{ww}" dl_cpi_ww
+    "Log foreign CPI, Y/Y !! \Delta_4 p^\mathrm{ww}" d4l_cpi_ww
 
 
 !parameters(:world)
@@ -47,10 +45,6 @@
 
 
 !transition-equations(:world)
-
-    "Foreign demand"
-    l_gdp_ww = l_gdp_ww_tnd + l_gdp_ww_gap;
-
 
     "Foreign demand gap"
     l_gdp_ww_gap = ...
@@ -88,9 +82,6 @@
         dl_? = 4 * diff(l_?);
         d4l_? = diff(l_?, -4);
     !end
-
-
-    l_gdp_ww_tnd = 0;
 
 
 !autoswaps-simulate

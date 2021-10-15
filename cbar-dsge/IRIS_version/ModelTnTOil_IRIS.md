@@ -228,6 +228,11 @@ epsI
 epsMD
 %--------------------------------------------------------------------------
 
+!log-variables
+
+yD, YN, k, oT, g, i, c, hd, h, hN, kN, kT, hT, YT, z, yN, gdp, nuT, nuN, yTd
+
+
 !transition_equations
 
 %--------------------------------------------------------------------------
@@ -279,7 +284,9 @@ rK = (gamma1*u + varepsilonI^(-1)*gamma2*(u-1)) !! u=1;
 %--------------------------------------------------------------------------
 % Equation 14. An auxiliary variable variable to present the wage stickiness: 
 f_1 = (eta-1)/eta*wStar*lambda*wStarByw^(-eta)*hd + 
-pbeta*xiW*((Pi^gammaW)/Pi{+1})^(1-eta)*(wStar/wStar{+1})^(1-eta)*f_1{+1} !! f_1 = (eta-1)/eta*wStar*wStarByw^(-eta)*lambda*hd/(1-pbeta*xiW*(Pi)^((gammaW-1)*(1-eta)));
+pbeta*xiW*((Pi^gammaW)/Pi{+1})^(1-eta)*(wStar/wStar{+1})^(1-eta)*f_1{+1} %!! f_1 = (eta-1)/eta*wStar*wStarByw^(-eta)*lambda*hd/(1-pbeta*xiW*(Pi)^((gammaW-1)*(1-eta)))
+;
+
 % Equation 15. An auxiliary variable variable to present the wage stickiness: 
 f_2 = omega*varepsilonP*varepsilonH*wStarByw^(-eta*(1+kappa))*hd^(1+kappa) +  
 pbeta*xiW*((Pi^gammaW)/Pi{+1})^(-eta*(1+kappa))*(wStar/wStar{+1})^(-eta*(1+kappa))*f_2{+1} !! f_2=f_1;  

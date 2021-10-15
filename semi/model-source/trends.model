@@ -4,14 +4,14 @@
 
 !transition-variables(:trends)
 
-    "GDP trend !! y^\mathrm{tnd}" l_gdp_tnd
-    "GDP trend, Q/Q PA !! \Delta y^\mathrm{tnd}" dl_gdp_tnd
-    "Real exchange rate trend !! rex^\mathrm{tnd}" l_rex_tnd
-    "Real exchange rate trend !! \Delta rex^\mathrm{tnd}" dl_rex_tnd
-    "Real short-term rate trend !! rr^\mathrm{tnd}" rr_tnd
-    "Short-term cash rate trend !! r^\mathrm{tnd}" r_tnd
-    "Interest disparity trend !! prem^\mathrm{tnd}" prem_tnd
-    "Foreign real short-term rate, FCY !! rr^\mathrm{ww,tnd}" rr_ww_tnd
+    "Log GDP trend !! y^\mathrm{tnd}" l_gdp_tnd
+    "Log GDP trend, Q/Q PA !! \Delta y^\mathrm{tnd}" dl_gdp_tnd
+    "Log real exchange rate trend !! rex^\mathrm{tnd}" l_rex_tnd
+    "Log real exchange rate trend !! \Delta rex^\mathrm{tnd}" dl_rex_tnd
+    "Real short-term rate trend, PA !! rr^\mathrm{tnd}" rr_tnd
+    "Short-term rate trend, PA !! r^\mathrm{tnd}" r_tnd
+    "Interest disparity trend, PA !! prem^\mathrm{tnd}" prem_tnd
+    "Foreign real short-term rate, FCY PA !! rr^\mathrm{ww,tnd}" rr_ww_tnd
 
 
 !parameters(:trends)
@@ -47,6 +47,7 @@
     "Tune on foreign real short-term rate trend" tune_rr_ww_tnd
     "Tune on real exchange rate trend" tune_dl_rex_tnd
 
+
 !substitutions
 
     ss_prem := (ss_rr - ss_rr_ww - ss_dl_rex);
@@ -73,7 +74,7 @@
     !! rr_tnd = ss_rr;
 
 
-    "Interest disparity trend"
+    "Real unconvered interest parity"
     rr_tnd - prem_tnd = rr_ww_tnd + dl_rex_tnd{+1} ...
     !! prem_tnd = $ss_prem$;
 

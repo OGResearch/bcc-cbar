@@ -3,9 +3,13 @@ function p = trends(p)
 % Directly calibrated steady-state properties
 
 p.ss_dl_gdp = 3;
-p.ss_dl_cpi = 5;
-p.ss_rr = 3;
+p.ss_dl_cpi = NaN;
+p.ss_rr = 1;
 p.ss_dl_rex = -1;
+
+
+% Reverse engineer ss_dl_cpi
+p.dl_ex = 0;
 
 
 % Dynamic parameters

@@ -6,18 +6,22 @@ clear all;
 P = struct();
 P.peg = true;
 
-m = model('ModelTnTOil_IRIS2.mod','assign=',P, 'linear', false);
+m = Model.fromFile('ModelTnTOil_IRIS.md','assign=',P, 'linear', false);
 
 disp('Database with descriptions of all variables, shocks and parameters');
 get(m,'descript')
 
-m = sstate(m);
+
+m.kN = 20;
+m.kT = 20;
+
+m = steady(m, 'saveas', 'xxx.model');
 m = solve(m);
 %chksstate(m);
 
 
 ss = get(m,'sstate');
-
+return
 
 %% Range
 startdate = qq(2016, 1);

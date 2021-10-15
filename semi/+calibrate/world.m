@@ -1,10 +1,14 @@
-function p = calibrate(p)
+function p = world(p)
 
 
 % Steady-state parameters
 
-p.ss_rr_ww = 0;
-p.ss_dl_cpi_ww = 2;
+p.ss_rr_ww = NaN;
+p.ss_dl_cpi_ww = 4;
+
+
+% Reverse engineer ss_rr_ww
+p.r_ww = 2;
 
 
 % Dynamic parameters
