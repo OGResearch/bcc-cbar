@@ -54,19 +54,20 @@ https://drive.google.com/drive/folders/1bUUaUxUsnAZFdJ0wzJXYBMocTldpcscW?usp=sha
 * Fine tuning the semi-structural model for Azerbaijan
 * Forex market and forex interventions in semi-structural models
 * Forex market and forex interventions in DSGE models
-* Modeling transition from managed exchange rate to inflation targeting
+* Intro to nonlinear simulation techniques
 
 
 #### Thu, Nov 11
 
+* Modeling transition from managed exchange rate to inflation targeting
 * Short-lived vs long-lived events and shocks
 * Monetary policy reaction to short-lived vs long-lived events
-* Moving-average and autoregressive shocks in IrisT models
 
 #### Fri, Nov 12
 
 * Producing near-term forecasts using factor models and bayesian VAR models in IrisT
 * Incorporating NTF within stuctural model scenarios
+* High-frequence indicators in structural models, measurement equations
 
 
 #### Mon, Nov 16
